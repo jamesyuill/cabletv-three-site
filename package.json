@@ -1,0 +1,19 @@
+{
+  "name": "three-vite-att2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "gsap": "^3.12.2",
+    "three": "^0.153.0"
+  },
+  "devDependencies": {
+    "vite": "^4.3.9"
+  }
+}
