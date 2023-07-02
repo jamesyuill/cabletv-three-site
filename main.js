@@ -241,28 +241,28 @@ gui.addColor(rectLightBottomParams, 'bottomLight').onChange((value) => {
 const movableFeast = new THREE.Group()
 movableFeast.add(boxMesh, logo, icoMesh)
 scene.add(movableFeast);
-const boxAnim = gsap.timeline({paused:true})
-.to(movableFeast.position, {x:5,duration:2})
+// const boxAnim = gsap.timeline({paused:true})
+// .to(movableFeast.position, {x:5,duration:2})
 
-const boxAnim2 = gsap.timeline({paused:true})
-.to(movableFeast.position, {x:0,duration:2})
+// const boxAnim2 = gsap.timeline({paused:true})
 
-const boxAnim3 = gsap.timeline({paused:true})
-.to(movableFeast.position, {x:-5,duration:2})
+
+// const boxAnim3 = gsap.timeline({paused:true})
+
 
 const button1 = document.getElementById('button1')
 const button2 = document.getElementById('button2')
 const button3 = document.getElementById('button3')
 button1.addEventListener('mouseenter', ()=>{
-  boxAnim.play();
+  gsap.to(movableFeast.position, {x:5,duration:2})
   
 })
 button2.addEventListener('mouseenter', ()=>{
-  boxAnim2.play();
+  gsap.to(movableFeast.position, {x:0,duration:2})
 
 })
 button3.addEventListener('mouseenter', ()=>{
-  boxAnim3.play();
+  gsap.to(movableFeast.position, {x:-5,duration:2})
 })
 
 
