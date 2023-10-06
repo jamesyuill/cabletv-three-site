@@ -1,28 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cable tv</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="wrapper">
-       <div class="nav">
-            <button class="button" id="button1">cube</button>
-            <button class="button"  id="button2">logo</button>
-            <button class="button"  id="button3">torus</button>
+      <div class="nav">
+        <button class="button" id="button1">cube</button>
+        <button class="button" id="button2">logo</button>
+        <button class="button" id="button3">torus</button>
+      </div>
 
+      <canvas id="canvas"></canvas>
 
-       </div>
-       
-       
-       <canvas id="canvas"></canvas>
-       
-       <div class="gui" id="gui_container"></div>
-       
+      <div class="gui" id="gui_container"></div>
     </div>
-    <script type="module" src="main.js"></script>
-</body>
+    <script type="module" src="./src/main.js"></script>
+  </body>
 </html>

@@ -2,7 +2,7 @@
   "name": "three-vite-att2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

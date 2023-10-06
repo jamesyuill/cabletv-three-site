@@ -1,5 +1,4 @@
 import * as THREE from 'three';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { gsap } from 'gsap';
 import { GUI } from 'dat.gui';
 import { TTFLoader } from 'three/addons/loaders/TTFLoader.js';

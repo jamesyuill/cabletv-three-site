@@ -1,3 +1,0 @@
-function expLoader(){}
-
-export {expLoader}
