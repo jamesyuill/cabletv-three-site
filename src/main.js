@@ -1,10 +1,10 @@
 import * as THREE from '../node_modules/three/build/three.module.js';
-import { gsap } from 'gsap';
-import { GUI } from 'dat.gui';
-import { TTFLoader } from 'three/addons/loaders/TTFLoader.js';
-import { FontLoader } from 'three/addons/loaders/FontLoader.js';
-import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';
-import { RectAreaLightHelper } from 'three/addons/helpers/RectAreaLightHelper.js';
+import { gsap } from '../node_modules/gsap';
+import { GUI } from '../node_modules/dat.gui';
+import { TTFLoader } from '../node_modules/three/examples/jsm/loaders/TTFLoader.js';
+import { FontLoader } from '../node_modules/three/examples/jsm/loaders/FontLoader.js';
+import { TextGeometry } from '../node_modules/three/examples/jsm/geometries/TextGeometry.js';
+import { RectAreaLightHelper } from '../node_modules/three/examples/jsm/helpers/RectAreaLightHelper.js';
 const button1 = document.getElementById('button1');
 const button2 = document.getElementById('button2');
 const button3 = document.getElementById('button3');
