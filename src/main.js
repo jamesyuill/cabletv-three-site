@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from '../node_modules/three/build/three.module.js';
 import { gsap } from 'gsap';
 import { GUI } from 'dat.gui';
 import { TTFLoader } from 'three/addons/loaders/TTFLoader.js';
