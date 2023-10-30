@@ -56,7 +56,7 @@ rectLightFront.add(helperFront);
 scene.add(rectLightFront);
 
 //Logo Loader
-let logo = new THREE.Group();
+let logo = new THREE.Object3D();
 const loader = new TTFLoader();
 const fontLoader = new FontLoader();
 loader.load('Condition-Regular.ttf', (fnt) => {
@@ -80,7 +80,7 @@ loader.load('Condition-Regular.ttf', (fnt) => {
   const tvMesh = new THREE.Mesh(tvGeometry, textMaterial);
   cableMesh.position.set(0, 0, 0);
   tvMesh.position.set(1.2, -1.1, 0);
-  const logoGroup = new THREE.Group();
+  const logoGroup = new THREE.Object3D();
   logoGroup.add(cableMesh);
   logoGroup.add(tvMesh);
   logoGroup.position.set(-1.8, 2, 0.5);
