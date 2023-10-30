@@ -59,7 +59,7 @@ scene.add(rectLightFront);
 let logo = new THREE.Object3D();
 const loader = new TTFLoader();
 const fontLoader = new FontLoader();
-loader.load('Condition-Regular.ttf', (fnt) => {
+loader.load('./Condition-Regular.ttf', (fnt) => {
   let font = fontLoader.parse(fnt);
   const cableGeometry = new TextGeometry('cable', {
     font: font,
